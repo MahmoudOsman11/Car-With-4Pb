@@ -8,7 +8,7 @@
 #include <avr/io.h>
 #include "DIO/DIO.h"
 #include "avr/delay.h"
-#define LED_Time 300
+#define LED_Time 3000
 uint8 Forward_PB,Right_PB, Left_PB, Back_PB, Stop_PB;
 uint16 Led1Counter=0,Led2Counter=0,Led3Counter=0;
 int main(void)
